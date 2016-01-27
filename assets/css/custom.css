@@ -1,0 +1,113 @@
+body {
+    padding-top: 75px;
+}
+
+/* products_view.php */
+.navbar a{
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: #FFFFFF !important;
+}
+
+.cart-block{
+    background: #066d14;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.panel-list a{
+    display: block;
+    color: #333;
+}
+
+.panel-list .panel-heading h3{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.panel-heading-dark{
+    background: #066d14 !important;
+    color: #fff !important;
+}
+
+.panel-heading-green{
+    background: #6edd7d !important;
+    color: #fff !important;
+}
+
+.game{
+    display: relative;
+    margin-top: 20px;
+}
+
+.game-title{
+    text-align: center;
+    padding: 5px;
+    background: #066d14;
+    color: #fff;
+    width: 100%;
+}
+
+.game img{
+    width: 100%;
+}
+
+.game-price{
+    position: absolute;
+    bottom: 120px;
+    right: 25px;
+    background: #6edd7d;
+    color: #fff;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.game-add{
+    margin: 5px auto 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.qty{
+    width: 50px;
+    color: #666  !important;
+    text-align: center;
+    
+}
+
+/* .qty label => doesn't Work' */
+form label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.footer{
+    background: #032308;
+    color: #fff;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* details.php */
+.details-price{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.details img{
+    width: 100%;
+    
+}
+
+/* Min height of a web page */
+.row {
+    min-height: 575px;
+}
+
